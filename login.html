@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secret Login Page</title>
+    <title>Company Login Page</title>
 </head>
 
+<img src="https://www.nsa.gov/Portals/75/images/about/cryptologic-heritage/center-cryptologic-history/insignia/nsa-insignia-lg.png" alt="Logo" width="200" heght="170" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg" alt="Logo" width="200" heght="170" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Seal_of_the_Federal_Bureau_of_Investigation.svg" alt="Logo" width="200" heght="170" />
 <br>
-
-
+<br>
 <label for ="username"> Username: </label>
-<input id="username" name="username" type="text" value="Username" pattern="\w{3,16}" required />
+<input id="username" name="username" type="text" value="" pattern="\w{3,16}" required />
 <br>
 <label for = "pin">Password : </label>
-<input id ="pin" name - "pin" type="password" pattern="/d{4,4}" required />
+<input id ="pin" name = "pin" type="password" pattern="/d{4,4}" required />
 </div>
-<br>
-
-</div>
-<br>
-<br>
 <br>
 
 <fieldset>
@@ -41,43 +38,28 @@
     </div>
   </fieldset>
 
-  <button> Continue with Login </button>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <button> Continue with login sequence </button>
 <br>
 <br>
 
 <p>
     <label>
-        Enter your phone number in the format (864) 555-5555 to request a call back: <br>
+        Enter your 9 digit OTP: <br>
 
-        (<input
+        <input
         name = "tel1"
         type = "tel"
-        patter="[0-9]{3}"
-        placeholder = "###"
-        aria-label = "3 digit area code"
-        size = "2"/>) - 
-        (<input
-        name = "tel2"
-        type = "tel"
-        patter="[0-9]{3}"
-        placeholder = "###"
-        aria-label = "3 digit prefix"
-        size = "2"/>) 
-        - 
-        (<input
-        name = "tel3"
-        type = "tel"
-        patter="[0-9]{4}"
-        placeholder = "###"
-        aria-label = "4 digit number"
-        size = "2"/>) - 
-    </label><br> <br>
-    <button> Request Call Back </button>
+        patter="[0-9]{9}"
+        placeholder = "#########"
+        aria-label = "9 digit OTP"
+        size = "9"/>
+
+    </label>
 </p>
+
+<input type="button" onclick="alert('Your IP Address has been submitted')" value = "Submit" >
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<address>
+  Written by <a href="mailto:sndjy1986@gmail.com"> Joseph Sanders</a><br>
+</address>
+</html>
