@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Login Page</title>
+</head>
+
+<br>
+
+
+<label for ="username"> Username: </label>
+<input id="username" name="username" type="text" value="Username" pattern="\w{3,16}" required />
+<br>
+<label for = "pin">Password : </label>
+<input id ="pin" name - "pin" type="password" pattern="/d{4,4}" required />
+</div>
+<br>
+
+</div>
+<br>
+<br>
+<br>
+
+<fieldset>
+    <legend>Which Service would you like to login to:</legend>
+  
+    <div>
+      <input type="radio" id="CIA" name="drone" value="CIA" checked />
+      <label for="CIA">Central Intelligence Agency</label>
+    </div>
+  
+    <div>
+      <input type="radio" id="NSA" name="drone" value="NSA" />
+      <label for="NSA">National Security Agency</label>
+    </div>
+  
+    <div>
+      <input type="radio" id="FBI" name="drone" value="FBI" />
+      <label for="FBI">Federal Bureau of Investigation</label>
+    </div>
+  </fieldset>
+
+  <button> Continue with Login </button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>
+    <label>
+        Enter your phone number in the format (864) 555-5555 to request a call back: <br>
+
+        (<input
+        name = "tel1"
+        type = "tel"
+        patter="[0-9]{3}"
+        placeholder = "###"
+        aria-label = "3 digit area code"
+        size = "2"/>) - 
+        (<input
+        name = "tel2"
+        type = "tel"
+        patter="[0-9]{3}"
+        placeholder = "###"
+        aria-label = "3 digit prefix"
+        size = "2"/>) 
+        - 
+        (<input
+        name = "tel3"
+        type = "tel"
+        patter="[0-9]{4}"
+        placeholder = "###"
+        aria-label = "4 digit number"
+        size = "2"/>) - 
+    </label><br> <br>
+    <button> Request Call Back </button>
+</p>
